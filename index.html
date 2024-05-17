@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Algoritmo de Planificación de Disco</title>
+		<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    </head>
+    <body>
+		<h2 id="titulo" style="text-align: center;">Algoritmo SSTF</h2>
+		<div style="text-align: center; font-size: 20px;">
+			<label for="input_lista" >Secuencia inicial: </label>
+			<input type="text" id="input_lista">
+			<button onclick="main()">Graficar</button>
+		</div>
+		<br><br>
+		<h3 id="texto_sectores" style="text-align: center;"></h3>
+		<canvas id="grafica" width="220" height="50"></canvas>
+		<p id="texto_sf" style="text-align: center; font-size: 20px;"></p>
+		<script src="sstf.js"></script>
+		<script src="grafica.js"></script>
+		<script src="main.js"></script>
+    </body>
+</html>
